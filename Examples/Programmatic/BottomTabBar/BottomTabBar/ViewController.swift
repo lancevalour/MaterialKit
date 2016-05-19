@@ -50,23 +50,23 @@ class ViewController: UIViewController {
 	private func prepareTabBar() {
 		bottomTabBar = BottomTabBar()
 		// tabBar.autoLayoutToSuperview // Set to false if you want to handle the layout yourself.
-		bottomTabBar.backgroundColor = MaterialColor.grey.darken4
+		bottomTabBar.backgroundColor = MaterialColor.greyDarken4
 		view.addSubview(bottomTabBar)
 		
 		let videoItem: UITabBarItem = UITabBarItem(title: "Video", image: MaterialIcon.cm.videocam, selectedImage: nil)
-		videoItem.setTitleColor(MaterialColor.grey.base, forState: .Normal)
-		videoItem.setTitleColor(MaterialColor.teal.base, forState: .Selected)
+		videoItem.setTitleColor(MaterialColor.greyBase, forState: .Normal)
+		videoItem.setTitleColor(MaterialColor.tealBase, forState: .Selected)
 		
 		let photoItem: UITabBarItem = UITabBarItem(title: "Photo", image: MaterialIcon.cm.photoCamera, selectedImage: nil)
-		photoItem.setTitleColor(MaterialColor.grey.base, forState: .Normal)
-		photoItem.setTitleColor(MaterialColor.teal.base, forState: .Selected)
+		photoItem.setTitleColor(MaterialColor.greyBase, forState: .Normal)
+		photoItem.setTitleColor(MaterialColor.tealBase, forState: .Selected)
 		
 		let libraryItem: UITabBarItem = UITabBarItem(title: "Library", image: MaterialIcon.cm.photoLibrary, selectedImage: nil)
-		libraryItem.setTitleColor(MaterialColor.grey.base, forState: .Normal)
-		libraryItem.setTitleColor(MaterialColor.teal.base, forState: .Selected)
+		libraryItem.setTitleColor(MaterialColor.greyBase, forState: .Normal)
+		libraryItem.setTitleColor(MaterialColor.tealBase, forState: .Selected)
 
 		bottomTabBar.setItems([videoItem, photoItem, libraryItem], animated: true)
-		bottomTabBar.tintColor = MaterialColor.teal.base // Sets the image color when highlighted.
+		bottomTabBar.tintColor = MaterialColor.tealBase // Sets the image color when highlighted.
 		bottomTabBar.itemPositioning = .Automatic // Sets the alignment of the UITabBarItems.
 		bottomTabBar.selectedItem = videoItem
 	}

@@ -31,6 +31,7 @@
 #import <Foundation/Foundation.h>
 
 //! Project version number for Material.
+
 FOUNDATION_EXPORT double MaterialVersionNumber;
 
 //! Project version string for Material.

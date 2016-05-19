@@ -12,6 +12,8 @@
 		96FBE3D11CAA1690001E2932 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FBE3C91CAA1690001E2932 /* LaunchScreen.storyboard */; };
 		96FBE3D21CAA1690001E2932 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FBE3CB1CAA1690001E2932 /* Main.storyboard */; };
 		96FBE3D41CAA1690001E2932 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBE3CE1CAA1690001E2932 /* ViewController.swift */; };
+		B11CD1851CED08D4000508DE /* Material.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B11CD1841CED08D4000508DE /* Material.framework */; };
+		B11CD1861CED08D4000508DE /* Material.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B11CD1841CED08D4000508DE /* Material.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -21,6 +23,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				B11CD1861CED08D4000508DE /* Material.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,6 +38,7 @@
 		96FBE3CC1CAA1690001E2932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96FBE3CD1CAA1690001E2932 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96FBE3CE1CAA1690001E2932 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B11CD1841CED08D4000508DE /* Material.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Material.framework; path = "/Users/yichengzhang/Library/Developer/Xcode/DerivedData/Material-bwqpampzzezgivezhusgjcdzdpke/Build/Products/Debug-iphonesimulator/Material.framework"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B11CD1851CED08D4000508DE /* Material.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +56,7 @@
 		96162C001CA6F2BC00E3A235 = {
 			isa = PBXGroup;
 			children = (
+				B11CD1841CED08D4000508DE /* Material.framework */,
 				96FBE3C61CAA1690001E2932 /* BottomTabBar */,
 				96162C0A1CA6F2BC00E3A235 /* Products */,
 			);

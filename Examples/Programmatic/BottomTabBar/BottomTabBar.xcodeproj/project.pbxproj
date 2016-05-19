@@ -11,6 +11,8 @@
 		96FBE3BF1CAA15DF001E2932 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96FBE3B91CAA15DF001E2932 /* Assets.xcassets */; };
 		96FBE3C01CAA15DF001E2932 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FBE3BA1CAA15DF001E2932 /* LaunchScreen.storyboard */; };
 		96FBE3C21CAA15DF001E2932 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FBE3BD1CAA15DF001E2932 /* ViewController.swift */; };
+		B11CD18B1CED0C09000508DE /* Material.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B11CD18A1CED0C09000508DE /* Material.framework */; };
+		B11CD18C1CED0C09000508DE /* Material.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B11CD18A1CED0C09000508DE /* Material.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,6 +22,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				B11CD18C1CED0C09000508DE /* Material.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -33,6 +36,7 @@
 		96FBE3BB1CAA15DF001E2932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96FBE3BC1CAA15DF001E2932 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96FBE3BD1CAA15DF001E2932 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B11CD18A1CED0C09000508DE /* Material.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = Material.framework; path = "/Users/yichengzhang/Library/Developer/Xcode/DerivedData/Material-bwqpampzzezgivezhusgjcdzdpke/Build/Products/Debug-iphonesimulator/Material.framework"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B11CD18B1CED0C09000508DE /* Material.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +54,7 @@
 		96A536661CA3A5450069B3CC = {
 			isa = PBXGroup;
 			children = (
+				B11CD18A1CED0C09000508DE /* Material.framework */,
 				96FBE3B71CAA15DF001E2932 /* BottomTabBar */,
 				96A536701CA3A5450069B3CC /* Products */,
 			);
